@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Mu-Ruei Tseng, HKUST, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.23
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      CMSIS_AGDI.dll V1.27.5.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Morris\Desktop\HKUST\ELEC_3300\project\master\MDK-ARM\master.uvprojx
+Project File Date:  05/03/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'master'
+assembling startup_stm32f103xe.s...
+compiling helper_func.c...
+..\Src\helper_func.c(11): warning:  #1-D: last line of file ends without a newline
+  */
+..\Src\helper_func.c: 1 warning, 0 errors
+compiling joystick.c...
+..\Src\joystick.c(30): warning:  #1-D: last line of file ends without a newline
+  }
+..\Src\joystick.c: 1 warning, 0 errors
+compiling stm32f1xx_it.c...
+compiling motor.c...
+compiling main.c...
+../Src/ultrasound.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif 
+../Src/main.c(209): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			strcpy(bufferx, buffer);
+../Src/main.c(215): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			strcpy(bufferx, buffer2);
+../Src/main.c(220): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			strcpy(bufferx, buffer3);
+../Src/main.c(226): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			strcpy(bufferx, buffer4);
+../Src/main.c(231): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			strcpy(bufferx, buffer5);
+../Src/main.c: 6 warnings, 0 errors
+compiling bluetooth.c...
+compiling lcd.c...
+compiling ultrasound.c...
+..\Src\ultrasound.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\Src\ultrasound.c(90): warning:  #1-D: last line of file ends without a newline
+  }
+..\Src\ultrasound.c: 2 warnings, 0 errors
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_uart.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_flash.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_flash_ex.c...
+linking...
+Program Size: Code=14222 RO-data=362 RW-data=56 ZI-data=1856  
+FromELF: creating hex file...
+"master\master.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM::CMSIS:CORE:5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_master
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:10
+</pre>
+</body>
+</html>
