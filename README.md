@@ -67,7 +67,7 @@ We want to better adjust the motor pwm signal to reach the desire rpm we set. We
 * Frame rate: 1~2 frames per sec
 * Image type: Grayscale
 * Function: Observe the environment. The captured image is sent from from the slave board to the GUI on PC
-
+<img width="250" alt="Screen Shot 2021-07-04 at 3 04 34 AM" src="https://user-images.githubusercontent.com/32810188/124364507-96d83180-dc74-11eb-8683-caa0caed90a2.png">
 #### Implementation
 1. Camera Sensors capture image Pixels.
 2. Camera then writes the pixels into FIFO buffer
@@ -79,6 +79,7 @@ We want to better adjust the motor pwm signal to reach the desire rpm we set. We
 * Location: Master Board 
 * Detect distance between the car and and walls/obstacles
 * Function: Stop the car when the distance is within 15 cm
+<img width="500" alt="Screen Shot 2021-07-04 at 3 02 21 AM" src="https://user-images.githubusercontent.com/32810188/124364466-5973a400-dc74-11eb-94df-a1694868bb39.png">
 #### Implementation
 1. TRIG pin High for 10us.
 2. HC-SR04 send out 8 cycles of 40kHz ultrasound
